@@ -23,9 +23,9 @@ export default class HangmanGameElement extends TelepathicElement{
     async loadText(){
         console.log("loadText was called");
         this.words = await this.loadFile("./wordlist.txt");
-        console.log("words: ",this.words);
+        //console.log("words: ",this.words);
         this.wordList = this.words.split('\n');
-        console.log("wordList: ",this.wordList);
+        //console.log("wordList: ",this.wordList);
     }
     attributeChangedCallback(attrName, oldVal, newVal) {
         console.log(attrName+" changed from "+oldVal+" to "+newVal);
