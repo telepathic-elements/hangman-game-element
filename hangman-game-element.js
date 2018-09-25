@@ -45,7 +45,7 @@ export default class HangmanGameElement extends TelepathicElement{
     }
 
     onReady(){
-        this.resetGame();
+        this.resetGame(); 
     }
 
     resetGame(){
